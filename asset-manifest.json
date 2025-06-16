@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/Design-Declares-Site/static/css/main.aab0cf80.css",
-    "main.js": "/Design-Declares-Site/static/js/main.ca08cc20.js",
+    "main.css": "/Design-Declares-Site/static/css/main.6718b92b.css",
+    "main.js": "/Design-Declares-Site/static/js/main.9e6e7e2e.js",
     "static/js/453.59b8a61b.chunk.js": "/Design-Declares-Site/static/js/453.59b8a61b.chunk.js",
     "static/media/ToolKit.webp": "/Design-Declares-Site/static/media/ToolKit.8d3e9eab185fd8e6d9bf.webp",
+    "static/media/logo1.svg": "/Design-Declares-Site/static/media/logo1.23f3789de252d563131e311a5d031c94.svg",
+    "static/media/group1.webp": "/Design-Declares-Site/static/media/group1.87979e59cae23e7e0dad.webp",
     "static/media/Rama-Gothic.ttf": "/Design-Declares-Site/static/media/Rama-Gothic.cf1005e7f825c4b0a204.ttf",
+    "static/media/group2.webp": "/Design-Declares-Site/static/media/group2.794c8c841556b3b1af28.webp",
+    "static/media/group4.webp": "/Design-Declares-Site/static/media/group4.2e5f591c7daa38a2f359.webp",
+    "static/media/group3.webp": "/Design-Declares-Site/static/media/group3.0bb094741df06eb6f149.webp",
+    "static/media/logo3.svg": "/Design-Declares-Site/static/media/logo3.4b84db52ec5e71c536a1ab9ae0bc38f2.svg",
+    "static/media/logo4.svg": "/Design-Declares-Site/static/media/logo4.b93fff353bfc449710aa84d8a5c1b81b.svg",
+    "static/media/logo2.svg": "/Design-Declares-Site/static/media/logo2.5c07a9b2cf12fbf7f2578f0962ea69d5.svg",
+    "static/media/logo5.svg": "/Design-Declares-Site/static/media/logo5.f5c427f1be03cfc64ef5826747559262.svg",
     "index.html": "/Design-Declares-Site/index.html",
-    "main.aab0cf80.css.map": "/Design-Declares-Site/static/css/main.aab0cf80.css.map",
-    "main.ca08cc20.js.map": "/Design-Declares-Site/static/js/main.ca08cc20.js.map",
+    "main.6718b92b.css.map": "/Design-Declares-Site/static/css/main.6718b92b.css.map",
+    "main.9e6e7e2e.js.map": "/Design-Declares-Site/static/js/main.9e6e7e2e.js.map",
     "453.59b8a61b.chunk.js.map": "/Design-Declares-Site/static/js/453.59b8a61b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aab0cf80.css",
-    "static/js/main.ca08cc20.js"
+    "static/css/main.6718b92b.css",
+    "static/js/main.9e6e7e2e.js"
   ]
 }
