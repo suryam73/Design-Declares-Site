@@ -40,7 +40,7 @@ const Group = () => {
       </div>
 
       {/* Right: Profile Cards */}
-      <div className="flex items-center text-textColor  gap-6">
+      <div className="flex flex-col md:flex-row items-center text-textColor  gap-6">
         {listGroup.map((member) => (
           <div
             key={member.id}
