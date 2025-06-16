@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Design-Declares-Site/static/css/main.6718b92b.css",
-    "main.js": "/Design-Declares-Site/static/js/main.00ef4b03.js",
+    "main.js": "/Design-Declares-Site/static/js/main.8f6af5d5.js",
     "static/js/453.59b8a61b.chunk.js": "/Design-Declares-Site/static/js/453.59b8a61b.chunk.js",
     "static/media/ToolKit.webp": "/Design-Declares-Site/static/media/ToolKit.8d3e9eab185fd8e6d9bf.webp",
     "static/media/logo1.svg": "/Design-Declares-Site/static/media/logo1.23f3789de252d563131e311a5d031c94.svg",
@@ -16,11 +16,11 @@
     "static/media/logo5.svg": "/Design-Declares-Site/static/media/logo5.f5c427f1be03cfc64ef5826747559262.svg",
     "index.html": "/Design-Declares-Site/index.html",
     "main.6718b92b.css.map": "/Design-Declares-Site/static/css/main.6718b92b.css.map",
-    "main.00ef4b03.js.map": "/Design-Declares-Site/static/js/main.00ef4b03.js.map",
+    "main.8f6af5d5.js.map": "/Design-Declares-Site/static/js/main.8f6af5d5.js.map",
     "453.59b8a61b.chunk.js.map": "/Design-Declares-Site/static/js/453.59b8a61b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6718b92b.css",
-    "static/js/main.00ef4b03.js"
+    "static/js/main.8f6af5d5.js"
   ]
 }
