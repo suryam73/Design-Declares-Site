@@ -9,8 +9,8 @@ const MenuBar = () => {
   };
 
   const menuItems = [
-    { name: "Home", href: "#home", icon: Home },
-    { name: "About", href: "#about", icon: Info },
+    { name: "Home", href: "/", icon: Home },
+    { name: "About", href: "/about", icon: Info },
     { name: "Latest", href: "#latest", icon: FileText },
     { name: "Contact", href: "#contact", icon: Mail },
     { name: "Choose Global Chapter", href: "#global", icon: Globe },

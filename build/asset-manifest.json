@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Design-Declares-Site/static/css/main.aab0cf80.css",
+    "main.js": "/Design-Declares-Site/static/js/main.ca08cc20.js",
+    "static/js/453.59b8a61b.chunk.js": "/Design-Declares-Site/static/js/453.59b8a61b.chunk.js",
+    "static/media/ToolKit.webp": "/Design-Declares-Site/static/media/ToolKit.8d3e9eab185fd8e6d9bf.webp",
+    "static/media/Rama-Gothic.ttf": "/Design-Declares-Site/static/media/Rama-Gothic.cf1005e7f825c4b0a204.ttf",
+    "index.html": "/Design-Declares-Site/index.html",
+    "main.aab0cf80.css.map": "/Design-Declares-Site/static/css/main.aab0cf80.css.map",
+    "main.ca08cc20.js.map": "/Design-Declares-Site/static/js/main.ca08cc20.js.map",
+    "453.59b8a61b.chunk.js.map": "/Design-Declares-Site/static/js/453.59b8a61b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aab0cf80.css",
+    "static/js/main.ca08cc20.js"
+  ]
+}
