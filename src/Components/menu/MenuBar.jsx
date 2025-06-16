@@ -14,6 +14,7 @@ const MenuBar = () => {
     { name: "Latest", href: "#latest", icon: FileText },
     { name: "Contact", href: "#contact", icon: Mail },
     { name: "Choose Global Chapter", href: "#global", icon: Globe },
+    
   ];
 
   return (
