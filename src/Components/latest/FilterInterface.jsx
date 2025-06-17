@@ -88,7 +88,7 @@ const FilterInterface = () => {
   );
 
   return (
-    <div className="min-h-screen bg-black grid grid-cols-2 text-white p-6">
+    <div className="min-h-screen bg-black grid md:grid-cols-2 text-white p-6">
       {/* Header */}
       <div className="mb-8">
        
@@ -133,7 +133,7 @@ const FilterInterface = () => {
         {filteredContent.length > 0 ? (
           filteredContent.map(item => (
             <div key={item.id} className="group cursor-pointer">
-              <div className="flex   overflow-hidden  transition-all duration-300 fade-in-once ">
+              <div className="flex flex-col  md:flex-row  overflow-hidden  transition-all duration-300 fade-in-once ">
              
                 <div className="w-64  flex-shrink-0 overflow-hidden">
                   <img src={item?.image} />

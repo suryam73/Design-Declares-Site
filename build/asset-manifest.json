@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/Design-Declares-Site/static/css/main.6718b92b.css",
-    "main.js": "/Design-Declares-Site/static/js/main.8f6af5d5.js",
+    "main.css": "/Design-Declares-Site/static/css/main.2edb7d23.css",
+    "main.js": "/Design-Declares-Site/static/js/main.a1ef944b.js",
     "static/js/453.59b8a61b.chunk.js": "/Design-Declares-Site/static/js/453.59b8a61b.chunk.js",
     "static/media/ToolKit.webp": "/Design-Declares-Site/static/media/ToolKit.8d3e9eab185fd8e6d9bf.webp",
+    "static/media/latest5.webp": "/Design-Declares-Site/static/media/latest5.396048d652a2ca958ef5.webp",
+    "static/media/latest4.webp": "/Design-Declares-Site/static/media/latest4.111051d1776124e5cd16.webp",
     "static/media/logo1.svg": "/Design-Declares-Site/static/media/logo1.23f3789de252d563131e311a5d031c94.svg",
+    "static/media/latest6.webp": "/Design-Declares-Site/static/media/latest6.2c15873c52cd8011cad6.webp",
+    "static/media/latest2.webp": "/Design-Declares-Site/static/media/latest2.96ecda3dc1350113bdb3.webp",
+    "static/media/latest1.webp": "/Design-Declares-Site/static/media/latest1.a00db9bf26a0a60a9fd4.webp",
     "static/media/group1.webp": "/Design-Declares-Site/static/media/group1.87979e59cae23e7e0dad.webp",
     "static/media/Rama-Gothic.ttf": "/Design-Declares-Site/static/media/Rama-Gothic.cf1005e7f825c4b0a204.ttf",
     "static/media/group2.webp": "/Design-Declares-Site/static/media/group2.794c8c841556b3b1af28.webp",
+    "static/media/latest3.webp": "/Design-Declares-Site/static/media/latest3.3f1c26543f9f5e41e9fa.webp",
     "static/media/group4.webp": "/Design-Declares-Site/static/media/group4.2e5f591c7daa38a2f359.webp",
     "static/media/group3.webp": "/Design-Declares-Site/static/media/group3.0bb094741df06eb6f149.webp",
     "static/media/logo3.svg": "/Design-Declares-Site/static/media/logo3.4b84db52ec5e71c536a1ab9ae0bc38f2.svg",
@@ -15,12 +21,12 @@
     "static/media/logo2.svg": "/Design-Declares-Site/static/media/logo2.5c07a9b2cf12fbf7f2578f0962ea69d5.svg",
     "static/media/logo5.svg": "/Design-Declares-Site/static/media/logo5.f5c427f1be03cfc64ef5826747559262.svg",
     "index.html": "/Design-Declares-Site/index.html",
-    "main.6718b92b.css.map": "/Design-Declares-Site/static/css/main.6718b92b.css.map",
-    "main.8f6af5d5.js.map": "/Design-Declares-Site/static/js/main.8f6af5d5.js.map",
+    "main.2edb7d23.css.map": "/Design-Declares-Site/static/css/main.2edb7d23.css.map",
+    "main.a1ef944b.js.map": "/Design-Declares-Site/static/js/main.a1ef944b.js.map",
     "453.59b8a61b.chunk.js.map": "/Design-Declares-Site/static/js/453.59b8a61b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6718b92b.css",
-    "static/js/main.8f6af5d5.js"
+    "static/css/main.2edb7d23.css",
+    "static/js/main.a1ef944b.js"
   ]
 }
