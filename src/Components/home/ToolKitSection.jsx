@@ -13,16 +13,16 @@ const ToolKitSection = () => {
       </div>
 
       {/* Right column scrollable */}
-      <div className="overflow-y-auto flex flex-col gap-4 ">
-        <img src={Images.toolKitIcon} alt="Image" />
-        <div className="text-textColor text-xl md:text-xl my-4">
+      <div className="overflow-y-auto flex flex-col gap-4 scroll-animate ">
+        <img src={Images.toolKitIcon} alt="Image" className="  " />
+        <div className="text-textColor text-xl md:text-xl my-4   ">
           Subscribe to the Design Declares UK newsletter to receive the latest
           news and updates. By signing up you will also gain access to The
           Design Declares Toolkit, a live and evolving Notion site co-created
           with our community. It is filled with the latest resources and methods
           to help you on your journey to climate-positive design.
         </div>
-        <div className="text-textColor text-lg md:text-lg my-4">
+        <div className="text-textColor text-lg md:text-lg my-4   ">
           Every signatory to Design Declares will receive an access link to the
           Toolkit. If you are unable to declare emergency quite yet, you can
           still access the Toolkit - just register below.

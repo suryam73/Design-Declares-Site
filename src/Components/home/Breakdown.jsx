@@ -80,11 +80,11 @@ const Breakdown = () => {
 
     {/* Right column scrollable */}
     <div className="overflow-y-auto ">
-      <div className="text-textColor text-3xl md:text-5xl my-4">
+      <div className="text-textColor   text-3xl md:text-5xl my-4">
       The science is settled. We are in an emergency of climate and nature. The world is past breaking point; the breakdown has begun...
       </div>
 
-      <div className="mt-6 ">
+      <div className="mt-6   ">
         {accordionItems.map((item, index) => (
           <div key={index} className="border-t border-gray-200">
             <button

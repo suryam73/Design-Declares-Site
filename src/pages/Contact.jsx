@@ -1,4 +1,6 @@
 
+
+
 import Header from '../Components/header/Header'
 import FilterInterface from '../Components/latest/FilterInterface'
 
@@ -18,8 +20,9 @@ import Supporters from "../Components/home/Supporters";
 import ToolKitSection from "../Components/home/ToolKitSection";
 import MenuBar from "../Components/menu/MenuBar";
 import Heading from '../Components/form/heading/Heading';
+import ContactForm from '../Components/contact/ContactForm';
 
-const Home = () => {
+const Contact = () => {
   return (
     <>
       <Helmet>
@@ -32,7 +35,7 @@ const Home = () => {
    
         <div className="bg-black rounded-b-3xl p-3 flex-grow">
             <Header/>
-        <FilterInterface/>
+      <ContactForm/>
           <MenuBar />
         </div>
 
@@ -43,4 +46,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Contact;

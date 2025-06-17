@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Home, Info, FileText, Mail, Globe } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const MenuBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,20 +12,19 @@ const MenuBar = () => {
   const menuItems = [
     { name: "Home", href: "/", icon: Home },
     { name: "About", href: "/about", icon: Info },
-    { name: "Latest", href: "#latest", icon: FileText },
-    { name: "Contact", href: "#contact", icon: Mail },
+    { name: "Latest", href: "/latest", icon: FileText },
+    { name: "Contact", href: "/contact", icon: Mail },
     { name: "Choose Global Chapter", href: "#global", icon: Globe },
-    
   ];
 
   return (
     <div className="fixed bottom-5 right-5 z-50">
       <div
-        className={`bg-gray-200  transition-all duration-300 ease-in-out ${
+        className={`bg-gray-200 transition-all duration-300 ease-in-out ${
           isMenuOpen ? "w-80" : "w-64"
         }`}
       >
-        <div className="flex items-center justify-between  border border-black">
+        <div className="flex items-center justify-between border border-black">
           <h2 className="text-xl font-semibold text-gray-800 px-4">Menu</h2>
           <button
             onClick={toggleMenu}
@@ -48,19 +48,42 @@ const MenuBar = () => {
           <div className="py-2">
             {menuItems.map((item, index) => {
               const IconComponent = item.icon;
-              return (
+              const isInternal = item.href.startsWith("/");
+
+              const commonClass =
+                "flex items-center px-4 py-3 text-gray-700 hover:underline transition-all duration-200 transform " +
+                (isMenuOpen
+                  ? "translate-x-0 opacity-100"
+                  : "translate-x-4 opacity-0");
+
+              const transitionStyle = {
+                transitionDelay: isMenuOpen ? `${index * 50}ms` : "0ms",
+              };
+
+              return isInternal ? (
+                <Link
+                  key={index}
+                  to={item.href}
+                  className={commonClass}
+                  style={transitionStyle}
+                  onClick={() => {
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                    setIsMenuOpen(false);
+                  }}
+                >
+                  <IconComponent className="w-5 h-5 mr-3 text-gray-600" />
+                  <span className="text-sm font-medium">{item.name}</span>
+                </Link>
+              ) : (
                 <a
                   key={index}
                   href={item.href}
-                  className={`flex items-center px-4 py-3 text-gray-700 hover:underline border-blacktransition-all duration-200 transform ${
-                    isMenuOpen
-                      ? "translate-x-0 opacity-100"
-                      : "translate-x-4 opacity-0"
-                  }`}
-                  style={{
-                    transitionDelay: isMenuOpen ? `${index * 50}ms` : "0ms",
+                  className={commonClass}
+                  style={transitionStyle}
+                  onClick={() => {
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                    setIsMenuOpen(false);
                   }}
-                  onClick={() => setIsMenuOpen(false)}
                 >
                   <IconComponent className="w-5 h-5 mr-3 text-gray-600" />
                   <span className="text-sm font-medium">{item.name}</span>
@@ -72,7 +95,7 @@ const MenuBar = () => {
 
         {/* Declare Now Button */}
         <div className="p-2 border-t text-xl border-black">
-          <button className="w-full text-start  bg-textColor py-2 px-4 rounded-md font-semibold  transition-colors duration-200 transform hover:scale-105">
+          <button className="w-full text-start bg-textColor py-2 px-4 rounded-md font-semibold transition-colors duration-200 transform hover:scale-105">
             Declare Now
           </button>
         </div>

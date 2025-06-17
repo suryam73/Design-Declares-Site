@@ -12,7 +12,7 @@ const Latest = () => {
       </div>
 
       {/* Right column scrollable */}
-      <div className="overflow-y-auto  mt-10 md:mt-0 flex flex-col gap-7 ">
+      <div className="overflow-y-auto  mt-10 md:mt-0 flex flex-col gap-7 scroll-animate  ">
         <div className="grid md:grid-cols-2 items-start gap-7 justify-center">
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-3 text-base text-textColor">

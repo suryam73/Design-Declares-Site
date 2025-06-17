@@ -1,45 +1,25 @@
+
 import React from "react";
 import Heading from "../form/heading/Heading";
 
-const EmergencyNow = () => {
+const ContactForm = () => {
   return (
-    <div className="grid md:grid-cols-2 mt-[17rem] text-white">
+    <div className="grid md:grid-cols-2 mt-5 pb-[20rem] text-white">
       {/* Left column */}
       <div className="md:p-4">
         <div className="sticky top-7">
-          <Heading title="Declare Emergency Now" />
+          <Heading title="Contact" />
         </div>
       </div>
 
       {/* Form Section */}
-      <div className="scroll-animate"> 
-        <div className="text-textColor text-xl md:text-2xl my-4     ">
-          Design Declares is open to individuals and institutions working in
-          industrial, digital, graphic, communication and service design. To
-          declare here, you must be a company with an office in the UK employing
-          at least one full-time designer...
-        </div>
+      <div>
+        
 
-        <div className="border border-textColor p-6 space-y-6     ">
-          <div className="text-3xl font-bold">I am Declaring Emergency</div>
+        <div className="border border-textColor p-6 space-y-6  fade-in-once  ">
+          <div className="text-3xl font-bold">Send Us A Message</div>
 
-          {/* Checkbox Options */}
-          <div className="grid grid-cols-2 md:grid-cols-2 gap-4 text-xl">
-            {[
-              "As a business",
-              "As an individual",
-              "As a public institution",
-              "As a team or department",
-            ].map((label, index) => (
-              <label key={index} className="flex items-center text-textColor gap-3 cursor-pointer">
-                <input
-                  type="checkbox"
-                  className="form-checkbox w-5 h-5 border-white border accent-white"
-                />
-                <span>{label}</span>
-              </label>
-            ))}
-          </div>
+       
 
           {/* Input Fields */}
           <div className="space-y-4 text-sm ">
@@ -85,14 +65,7 @@ const EmergencyNow = () => {
 
           {/* Consent Checkboxes */}
           <div className="space-y-3 text-sm">
-            <label className="flex items-start gap-3">
-              <input type="checkbox" className="mt-1 form-checkbox accent-white" />
-              <span className="text-lg text-textColor">
-                I consent for my data to be used for the purpose of the Declaration, and
-                for my name and reason for joining to be used in the promotion of the
-                Declaration on this site and across our social channels.
-              </span>
-            </label>
+          
 
             <label className="flex items-center gap-3">
               <input type="checkbox" className="form-checkbox accent-white" />
@@ -110,7 +83,7 @@ const EmergencyNow = () => {
           </div>
 
           <button className="bg-white hover:bg-primaryColor hover:text-black text-xl text-black font-semibold px-6 py-3 rounded-full mt-4 ">
-            Declare Emergency Now
+          Send Message
           </button>
         </div>
       </div>
@@ -118,4 +91,4 @@ const EmergencyNow = () => {
   );
 };
 
-export default EmergencyNow;
+export default ContactForm;

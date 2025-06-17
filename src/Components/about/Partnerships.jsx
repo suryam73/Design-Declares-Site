@@ -15,10 +15,10 @@ const Partnerships = () => {
 
       {/* Right column scrollable */}
       <div className="overflow-y-auto  ">
-        <div className="text-textColor text-xl md:text-3xl my-4">
+        <div className="text-textColor text-xl md:text-3xl my-4 ">
         We invite our colleagues from across the design industry to join us in declaring an emergency, and starting to take urgent action.*  </div>
 
-        <div className="grid grid-cols-2 gap-7 mt-5">
+        <div className="grid grid-cols-2 gap-7 mt-5 ">
           <div className="text-textColor text-xl  my-4">
           The acts of emergency above are the first (big) steps. As we all commit to this work, we must also commit to doing it in a way that is genuinely inclusive and equitable.
 
@@ -31,7 +31,7 @@ Join our list of global partners...
 
 UK, Ireland, Brazil, Australia
           </div>
-          <div className="flex flex-col text-center   md:flex-row items-center gap-4">
+          <div className="flex flex-col text-center    md:flex-row items-center gap-4">
             <div className="bg-textColor md:px-5 md:py-4 px-2 py-3 cursor-pointer mt-5 text-base md:text-xl font-semibold rounded-full hover:bg-primaryColor hover:text-black w-full md:w-fit">
             Get in Touch
             </div>

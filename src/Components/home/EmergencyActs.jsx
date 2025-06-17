@@ -61,13 +61,13 @@ const EmergencyActs = () => {
         </div>
       </div>
       <div>
-        <div className="text-textColor text-xl md:text-2xl my-4">
+        <div className="text-textColor text-xl md:text-2xl my-4   scroll-animate ">
           What does it take to Declare? It’s accepting we are in an emergency of
           climate and nature, and a commitment to do something about it. Here
           are eight places to start:
         </div>
 
-        <div className="bg-textColor">
+        <div className="bg-textColor    ">
           {EightStep.map((list) => (
             <div key={list.num}>
               <table className="w-full table-fixed">

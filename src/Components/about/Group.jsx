@@ -40,14 +40,14 @@ const Group = () => {
       </div>
 
       {/* Right: Profile Cards */}
-      <div className="flex flex-col md:flex-row items-center text-textColor  gap-6">
+      <div className="flex flex-col md:flex-row items-center text-textColor     gap-6">
         {listGroup.map((member) => (
           <div
             key={member.id}
             className=" shadow-md r  flex flex-col items-center text-center"
           >
             {member.image ? (
-              <img
+              <img 
                 src={member.image}
                 alt={member.name}
                 className="w- object-cover mb-4"
